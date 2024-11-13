@@ -46,7 +46,7 @@ LMLX = -lmlx -framework OpenGL -framework AppKit
 ifeq ($(UNAME), Linux)
 	#Properties for Linux
 	LEAKS =  valgrind --leak-check=full --show-leak-kinds=all -s -q 
-	LMLX = -lmlx -lXext -lX11
+	LMLX = -Lminilibx-linux -lmlx -lXext -lX11
 	GAME = game_linux.c
 	RENDER = render_linux.c
 	GRATE = GAME_RATE=80

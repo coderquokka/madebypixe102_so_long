@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "../inc/game.h"
-#include <mlx.h>
+#include "../minilibx-linux/mlx.h"
 #include <unistd.h>
 
 void	ft_update_score(t_game *g)

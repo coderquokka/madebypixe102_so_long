@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "../inc/game.h"
-#include <mlx.h>
+#include "../minilibx-linux/mlx.h"
 
 t_sprite	ft_initsprites(t_game *g)
 {

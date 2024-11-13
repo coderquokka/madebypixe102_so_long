@@ -17,7 +17,7 @@
 # include "map.h"
 # include "colors.h"
 # include "../libft/inc/libft.h"
-# include <mlx.h>
+# include "../../../42_core_projects_git/rank_02/so_long/code/minilibx-linux/mlx.h"
 # include <stdio.h>
 
 /* Sprite Size */

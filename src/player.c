@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "../inc/game.h"
-#include <mlx.h>
+#include "../minilibx-linux/mlx.h"
 #include <stdio.h>
 
 t_player	*ft_plrnew(t_vector pos)

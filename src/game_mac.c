@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "../inc/game.h"
-#include <mlx.h>
+#include "../minilibx-linux/mlx.h"
 #include <stdio.h>
 
 int	key_hook(int key, t_game *g)
